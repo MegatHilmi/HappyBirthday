@@ -55,7 +55,7 @@ let card4Status = false;
 const card1 = function(){
     console.log(card1Status)
     if(card1Status == true){
-        anime({
+       z
             targets:'.card1-top',
             translateY:'5em',
             borderRadius: "50px",
