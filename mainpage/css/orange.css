@@ -3,7 +3,7 @@ body{
 }
 
 #birthday-picture {
-    content: url(/picture/3.jpg);
+    content: url(../picture/3.jpg);
     width: 80%;
     height: auto;
     background-size: cover;

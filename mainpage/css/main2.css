@@ -291,7 +291,7 @@ hr{
 }
 
 .picture{
-    background-image: url("/picture/birthdaycake.png");
+    background-image: url("../picture/birthdaycake.png");
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
