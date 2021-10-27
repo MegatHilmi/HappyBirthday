@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="../mainpage/css/main2.css">
+    <link rel="stylesheet" id="themeSwithcer" href="">
+</head>
+
+<body>
+    <div id="whole-page">
+        <div id="animation-picture">
+            <div class="gift-box-1">
+                <img src="../picture/giftbox1.png" alt="yellow giftbox" id="giftbox1">
+                <img src="../picture/giftbox1lid.png" alt="yellow giftbox lid" id="giftbox1lid">
+            </div>
+            <div class="gift-box-2">
+                <img src="../picture/giftbox2.png" alt="purple giftbox" id="giftbox2">
+                <img src="../picture/giftbox2lid.png" alt="purple giftbox lid" id="giftbox2lid">
+            </div>
+            <div class="gift-box-3">
+                <img src="../picture/giftbox3.png" alt="red giftbox" id="giftbox3">
+            <img src="../picture/giftbox3lid.png" alt="red giftbox lid" id="giftbox3lid">
+            </div>
+            <div class="ice-cream">
+                <img src="../picture/icecreamcup.png" alt="icecream cup" id="icecreamcup">
+                <img src="../picture/icecream.png" alt="ice cream" id="icecream">
+            </div>
+            <div class="gift-box-4">
+                <img src="../picture/giftbox4.png" alt="purple giftbox" id="giftbox4">
+                <img src="../picture/giftbox4lid.png" alt="purple giftbox lid" id="giftbox4lid">
+            </div>
+            <div class="gift-box-5">
+                <img src="../picture/giftbox2.png" alt="red giftbox" id="giftbox5">
+                <img src="../picture/giftbox2lid.png" alt="red giftbox lid" id="giftbox5lid">
+            </div>
+            
+            
+            <img src="../picture/birthdayhat1.png" alt="purple birthday hat" id="birthdayhat1">
+            <img src="../picture/birthdayhat2.png" alt="yellow birthday hat" id="birthdayhat2">
+            
+            
+            
+        </div>
+
+        <div id="main-part">
+            <form id="top" onchange="haha()">
+                <div id="button-change-colour">
+                    <input type="radio" id="colour1" name="colour" value="colour1" checked>
+                    <label for="colour1" class= "button button1"></label>
+        
+                    <input type="radio" id="colour2" name="colour" value="colour2">
+                    <label for="colour2" class= "button button2"></label>
+        
+                    <input type="radio" id="colour3" name="colour" value="colour3">
+                    <label for="colour3" class= "button button3"></label>
+        
+                    <input type="radio" id="colour4" name="colour" value="colour4">
+                    <label for="colour4" class= "button button4"></label>
+                </div>
+            </form>
+            
+    
+            <div id="birthday-picture">
+                <!-- <img src="../picture/1.jpg" class= "picture" alt="pink birthday wish picture"> -->
+            </div>
+
+            <hr>
+            
+    
+            <div id="wish-text">
+               <p id="first-wish">Selamat Hari Tua Wan Maryam Jameelah. Semoga kau diberikan umur yang panjang, diberikan kesihatan yang berpanjangan, dimurahkan rezeki dan dipermudahkan urusan.</p>
+               <p id="sec-wish">Barakallah Fii Umrik. Ya Allah, panjangkanlah umur sahabatku. Kurniakanlah kesihatan yang baik kepadanya. Terangkanlah hatinya dengan nur pancaran iman. Tetapkanlah hatinya. Perluaskanlah rezekinya. Dekatkanlah hatinya kepada kebaikan. jauhkanlah hatinya pada kejahatan. Tunaikanlah hajatnya baik hajat dalam agama, dunia mahupun akhirat.</p>
+            </div>
+
+            <hr>
+    
+            <div id="card-wisher">
+                <div id="top-card">
+                    <div id="card1" onclick="card1()">
+                        <div class="top card1-top">
+                            <div class="picture"></div>
+                        </div>
+                        <div class="bottom card1-bottom">
+                            <p>On your birthday we wish for you that whatever you want most in life it comes to you just the way you imagined it or better. Happy birthday!</p>
+                        </div>
+                    </div>
+                    <div id="card2" onclick="card2()">
+                        <div class="top card2-top">
+                            <div class="picture"></div>
+                        </div>
+                        <div class="bottom card2-bottom">
+                            <p>Be happy! Today is the day you were brought into this world to be a blessing and inspiration to the people around you! You are a wonderful person! May you be given more birthdays to fulfill all of your dreams!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bottom-card">
+                    <div id="card3" onclick="card3()">
+                        <div class="top card3-top">
+                            <div class="picture"></div>
+                        </div>
+                        <div class="bottom card3-bottom">
+                            <p>Forget the past; look forward to the future, for the best things are yet to come.</p>
+                        </div>
+                    </div>
+                    <div id="card4" onclick="card4()">
+                        <div class="top card4-top">
+                            <div class="picture"></div>
+                        </div>
+                        <div class="bottom card4-bottom">
+                            <p>Enjoy this special day of your life to the fullest. Always remember that my prayers are always with you in all the good and bad times in life. Happy Birthday!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="song">
+            <audio id="track" src="/music/LISA MONEY Lyrics (Color Coded Lyrics).mp3" type="audio/mpeg"></audio>
+            
+            <div id="player-container">
+                <div id="play-pause" class="play"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/node_modules/animejs/lib/anime.min.js"></script>
+    <script src="/mainpage/main.js"></script>
+</body>
+
+</html>

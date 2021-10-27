@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.6s ease, color 1s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#animation-picture img{
+    position: fixed;
+    z-index: 3;
+}
+
+#giftbox1{
+    top: -50px;
+    right: -35px;
+    width: 6em;
+    height: auto;
+}
+
+
+#giftbox1lid{
+    top: 8px;
+    right: -4px;
+    width: 4em;
+    height: auto;
+}
+
+
+.gift-box-1:hover #giftbox1lid, 
+.gift-box-1:hover #giftbox1, 
+.gift-box-2:hover #giftbox2lid,
+.gift-box-2:hover #giftbox2,
+.gift-box-3:hover #giftbox3lid,
+.gift-box-3:hover #giftbox3,
+#birthdayhat1:hover,
+#birthdayhat2:hover,
+.ice-cream:hover #icecreamcup,
+.ice-cream:hover #icecream,
+.gift-box-4:hover #giftbox4lid,
+.gift-box-4:hover #giftbox4,
+.gift-box-5:hover #giftbox5lid,
+.gift-box-5:hover #giftbox5,
+.play:hover,
+.pause:hover{
+    animation: shake 0.5s;
+    /* animation-iteration-count: infinite; */
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+#giftbox2{
+    top: -25px;
+    right: 55px;
+    width: 4em;
+    height: auto;
+}
+
+#giftbox2lid{
+    top: -7px;
+    right: 45px;
+    width: 4em;
+    height: auto;
+}
+
+#giftbox3{
+    top: -20px;
+    right: 107px;
+    width: 4em;
+    height: auto;
+}
+
+#giftbox3lid{
+    top: 3px;
+    right: 112px;
+    width: 4em;
+    height: auto;
+}
+
+#birthdayhat1{
+    top: -14px;
+    right: 155px;
+    width: 4em;
+    height: auto;
+}
+
+#birthdayhat2{
+    top: -19px;
+    left: 170px;
+    width: 4em;
+    height: auto;
+}
+
+#animation-picture #icecreamcup{
+    z-index: 5;
+}
+
+#icecreamcup{
+    top: -25px;
+    left: 110px;
+    width: 4.5em;
+    height: auto;
+    z-index: 5;
+}
+
+#icecream{
+    top: -10px;
+    left: 124px;
+    width: 4.5em;
+    height: auto;
+    position: relative;
+    z-index: 4;
+}
+
+#giftbox4{
+    top: -20px;
+    left: 70px;
+    width: 4em;
+    height: auto;
+}
+
+#giftbox4lid{
+    top: 7px;
+    left: 69px;
+    width: 4em;
+    height: auto;
+}
+
+#giftbox5{
+    top: -15px;
+    left: 0px;
+    width: 4em;
+    height: auto;
+}
+
+#giftbox5lid{
+    top: 3px;
+    left: 8px;
+    width: 4em;
+    height: auto;
+}
+
+#main-part{ 
+    position: relative;
+    top: 100px;
+    
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#button-change-colour{
+    display: inline-flex;
+    height: 100px;
+    width: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#top .button{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 0 10px;
+    border: 2px solid #fff;
+    transition: all 0.5s linear;
+    margin: 0 10px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.button1{
+    background: #fdcfd1;
+}
+
+.button2{
+    background: #77d5df;
+}
+
+.button3{
+    background: #f37333;
+}
+
+.button4{
+    background: #ffc501;
+}
+
+input#colour1:checked ~ .button1{
+  border-color: #fc5353;
+}
+
+input#colour2:checked ~ .button2{
+    border-color: #047083;
+}
+
+input#colour3:checked ~ .button3{
+    border-color: #d93a03;
+}
+
+input#colour4:checked ~ .button4{
+    border-color: #7c6301;
+}
+
+#birthday-picture img{
+    width: 80%;
+    height: auto;
+    background-size: cover;
+    margin: 0 10%;
+    border-radius: 1em;
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 20%);
+}
+
+#wish-text p{
+    margin: 3em 0;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+
+hr{
+    margin: 2em 2em;
+}
+
+#wish-text{
+    text-align: center;
+}
+
+#wish-text p{
+    padding: 0 3em;
+}
+
+#wish-text b{
+    display: block;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+#card1{
+    margin: 5em;
+}
+
+#card2{
+    margin: 5em;
+}
+
+#card3{
+    margin: 5em;
+}
+
+#card4{
+    margin: 5em;
+    margin-bottom: 10em;
+}
+
+.card1-top,
+.card2-top,
+.card3-top,
+.card4-top{
+    background-color: black;
+    margin: auto;
+    width: 70%;
+    height: 10em;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    transform: translateY(5em);
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.picture{
+    background-image: url("/picture/birthdaycake.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+    opacity: 0.5;
+
+}
+
+.picture:hover{
+    opacity: 1;
+}
+
+
+.card1-bottom,
+.card2-bottom,
+.card3-bottom,
+.card4-bottom{
+    transform: translateY(-1em);
+    margin:  auto;
+    width: 70%;
+    height: 12em;
+    cursor: pointer;
+    transform: translateY(-5em);
+    transition: 0.5s;
+    border-radius: 0 0 50px 50px;
+    opacity: 0;
+    position: relative;
+}
+
+#card-wisher p{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+
+
+.bottom p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#player-container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 45%;
+}
+
+#player-container #play-pause {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: 12px 18px;
+    z-index: 2;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+      background-repeat: no-repeat!important;
+      background-position: center;
+      background-size: 16px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20px;
+}
+
+.play {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+    filter: invert();
+}
+.pause {
+     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+     filter: invert();
+}
+
+@media(min-width : 730px){
+    
+    body{
+        margin: 0;
+    }
+    
+    #giftbox1{
+        top: -50px;
+        right: -40px;
+        width: 7em;
+        height: auto;
+        /* z-index: 2; */
+    }
+    
+    #giftbox1lid{
+        top: 16px;
+        right: -7px;
+        width: 5em;
+        height: auto;
+        /* z-index: 3; */
+    }
+    
+    #giftbox2{
+        top: -25px;
+        right: 60px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #giftbox2lid{
+        top: -2px;
+        right: 53px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #giftbox3{
+        top: -30px;
+        right: 133px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #giftbox3lid{
+        top: -4px;
+        right: 140px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #birthdayhat1{
+        top: -15px;
+        right: 200px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #birthdayhat2{
+        top: -19px;
+        left: 220px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #icecreamcup{
+        top: -30px;
+        left: 155px;
+        width: 5em;
+        height: auto;
+        /* z-index: 2; */
+    }
+    
+    #icecream{
+        top: -10px;
+        left: 170px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #giftbox4{
+        top: -25px;
+        left: 89px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #giftbox4lid{
+        top: 10px;
+        left: 86px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #giftbox5{
+        top: -25px;
+        left: -4px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+    
+    #giftbox5lid{
+        top: -4px;
+        left: 5px;
+        width: 5em;
+        height: auto;
+        /* z-index: 1; */
+    }
+
+    #wish-text p{
+        margin: 3em 5em;
+    }
+    
+    hr{
+        margin: 2em 4em;
+    }
+    
+
+    .card1-top,
+    .card2-top,
+    .card3-top,
+    .card4-top{
+        height: 13em;
+    }
+
+    .card1-bottom,
+    .card2-bottom,
+    .card3-bottom,
+    .card4-bottom{
+        height: 10em;
+    }
+
+
+
+    /* .card1-top,
+    .card2-top,
+    .card3-top,
+    .card4-top{
+        background-color: black;
+        background-image: url("/picture/icecream.png");
+        background-position: center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        width: 70%;
+        height: 10em;
+        cursor: pointer;
+        z-index: 5;
+        border-radius: 20px;
+        position: relative;
+        transform: translateY(5em);
+        transition: 0.5s;
+    }
+
+
+
+    .card1-bottom,
+    .card2-bottom,
+    .card3-bottom,
+    .card4-bottom{
+        background-color: red;
+        transform: translateY(-1em);
+        margin:  auto;
+        width: 70%;
+        height: 10em;
+        cursor: pointer;
+        transform: translateY(-5em);
+        transition: 0.5s;
+        border-radius: 0 0 20px 20px;
+        opacity: 0;
+    } */
+    
+    /* #card1{
+        margin: 5em auto;
+        background: greenyellow;
+        width: 50%;
+        height: 30em;
+        border-radius: 5px;
+    } */
+    
+    /* #card2{
+        margin: 5em auto;
+        background: greenyellow;
+        width: 50%;
+        height: 30em;
+        border-radius: 5px;
+    }
+    
+    #card3{
+        margin: 5em auto;
+        background: greenyellow;
+        width: 50%;
+        height: 30em;
+        border-radius: 5px;
+    }
+    
+    #card4{
+        margin: 5em auto;
+        margin-bottom: 10em;
+        background: greenyellow;
+        width: 50%;
+        height: 30em;
+        border-radius: 5px;
+    } */
+}
+
+@media(min-width : 930px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #wish-text p{
+        margin: 3em 7em;
+    }
+    
+    hr{
+        margin: 2em 5em;
+    }
+
+    #top-card{
+        display: flex;
+    }
+    
+    /* #card1{
+        margin: 5em auto;
+        background: greenyellow;
+        width: 30%;
+        height: 25em;
+        border-radius: 5px;
+    }
+    
+    #card2{
+        margin: 5em auto;
+        background: greenyellow;
+        width: 30%;
+        height: 25em;
+        border-radius: 5px;
+    } */
+    
+    #bottom-card{
+        display: flex;
+    }
+
+    /* #card3{
+        margin: 5em auto;
+        background: greenyellow;
+        width: 30%;
+        height: 25em;
+        border-radius: 5px;
+    }
+    
+    #card4{
+        margin: 5em auto;
+        background: greenyellow;
+        width: 30%;
+        height: 25em;
+        border-radius: 5px;
+    } */
+}

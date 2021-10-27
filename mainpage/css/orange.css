@@ -1,0 +1,36 @@
+body{
+    background-color: #F5CA7B;
+}
+
+#birthday-picture {
+    content: url(/picture/3.jpg);
+    width: 80%;
+    height: auto;
+    background-size: cover;
+    margin: 0 10%;
+    border-radius: 1em;
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 20%);
+}
+
+#player-container{
+    background: linear-gradient( #f3a68a, #fd746c);
+}
+
+.card1-top,
+.card2-top,
+.card3-top,
+.card4-top{
+    background: #facd79;
+    box-shadow:  7px 7px 14px #d0ac69,
+             -7px -7px 14px #ffe88d;
+}
+
+.card1-bottom,
+.card2-bottom,
+.card3-bottom,
+.card4-bottom{
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    background-color: rgba(250, 205, 121, 0.54);
+    border: 1px solid rgba(206, 154, 49, 0.2);
+}
