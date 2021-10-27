@@ -26,7 +26,7 @@ function haha()
     }
 }
 
-const track = document.getElementById('track');
+const track = document.querySelector('#track');
 const controlBtn = document.getElementById('play-pause');
 
 function playPause(){
