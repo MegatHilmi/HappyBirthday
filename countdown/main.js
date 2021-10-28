@@ -1,9 +1,11 @@
 
+//get the current time and date to subtract with the birthday date and time
+let birthdayDate = new Date("October 28, 2021 13:45:00").getTime();
+
 //Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
 
-//get the current time and date to subtract with the birthday date and time
-let birthdayDate = new Date("October 28, 2021 13:34:00").getTime();
+
 
 //-----all the declaration for quote text-----//
 //for box one
