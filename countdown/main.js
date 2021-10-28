@@ -45,7 +45,7 @@ let textThree = ["What do you call a fish wearing a bowtie? <br>\"sofishticated\
 
 
 //Setup Timer to tick every 1 second
-var timer = setInterval(tick, 1000);
+let timer = setInterval(tick, 1000);
 
 //get the current time and date to subtract with the birthday date and time
 var birthdayDate = new Date("October 28, 2021 12:41:00").getTime();
