@@ -1,4 +1,4 @@
-let birthdayDate = new Date("October 27, 2021 11:55:00").getTime();
+let birthdayDate = new Date("October 28, 2021 12:15:00").getTime();
 
 //Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
