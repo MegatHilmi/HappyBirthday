@@ -1,7 +1,4 @@
-// let birthdayDate = new Date("October 29, 2021 12:15:00").getTime();
 
-//Setup Timer to tick every 1 second
-let timer = setInterval(tick, 1000);
 
 //-----all the declaration for quote text-----//
 //for box one
@@ -46,6 +43,11 @@ let textThree = ["What do you call a fish wearing a bowtie? <br>\"sofishticated\
 
 
 //get the current time and date to subtract with the birthday date and time
+let birthdayDate = new Date("October 29, 2021 12:15:00").getTime();
+
+//Setup Timer to tick every 1 second
+let timer = setInterval(tick, 1000);
+
 function tick(){
     console.log("Tick is function");
     console.log(birthdayDate);
