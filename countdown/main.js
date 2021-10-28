@@ -1,6 +1,6 @@
 
 //get the current time and date to subtract with the birthday date and time
-let birthdayDate = new Date("October 28, 2021 14:30:00").getTime();
+let birthdayDate = new Date("October 28, 2021 16:00:00").getTime();
 
 //Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
@@ -184,5 +184,5 @@ function tick(){
 
 function pageRedirect(){
     // window.location.replace("https://www.google.com/");
-    // window.location.replace("https://github.com/MegatHilmi/Happy-Birthday/mainpage");
+    window.location.replace("https://megathilmi.github.io/HappyBirthday/mainpage");
 }
