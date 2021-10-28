@@ -178,5 +178,5 @@ function tick(){
 
 function pageRedirect(){
     // window.location.replace("https://www.google.com/");
-    window.location.replace("https://github.com/MegatHilmi/Happy-Birthday/main page");
+    window.location.replace("https://github.com/MegatHilmi/Happy-Birthday/mainpage");
 }
