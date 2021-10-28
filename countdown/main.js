@@ -45,10 +45,10 @@ let textThree = ["What do you call a fish wearing a bowtie? <br>\"sofishticated\
 
 
 //Setup Timer to tick every 1 second
-const timer = setInterval(tick, 1000);
+var timer = setInterval(tick, 1000);
 
 //get the current time and date to subtract with the birthday date and time
-const birthdayDate = new Date("October 28, 2021 12:38:00").getTime();
+var birthdayDate = new Date("October 28, 2021 12:41:00").getTime();
 
 function tick(){
     console.log("Tick is function");
