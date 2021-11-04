@@ -56,12 +56,9 @@ controlBtn.className = "pause";
 
 function isPlaying(){
     if (sound.playing()) {
-        console.log("audio is playing"+ sound.seek());
-        console.log('audio is currently playing...');
         setTimeout(isPlaying, 500); //adjust timeout to fit your needs
     }
     else {
-        console.log('audio stopped playing.');
         controlBtn.className = "play";
     }
 }
@@ -79,26 +76,6 @@ function audioButton(){
     }
 }
 
-// function playPause(){
-//     secretButtonCounter++;
-//     //secret page popup
-//     secretcalculate()
-
-
-//     console.log("tekan");
-//     if(track.paused){
-//         track.play();
-//         controlBtn.className = "pause";
-//     } else{
-//         track.pause();
-//         controlBtn.className = "play";
-//     }
-// }
-
-// controlBtn.addEventListener("click", playPause);
-// track.addEventListener("ended", function(){
-//     controlBtn.className = "play";
-// });
 
 let card1Status = false;
 let card2Status = false;
