@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../mainpage/css/main2.css">
     <link rel="stylesheet" id="themeSwithcer" href="">
 </head>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
 <body>
     <div id="whole-page">
         <div id="animation-picture">
@@ -122,12 +122,39 @@
             <audio id="track" src="../music/LISA MONEY Lyrics (Color Coded Lyrics).mp3" type="audio/mpeg"></audio>
             
             <div id="player-container">
-                <div id="play-pause" class="play"></div>
+                <div id="play-pause" class="play" onclick="audioButton()"></div>
             </div>
         </div>
     </div>
+
+    <div class="secret">
+        <div class="secret-background"></div>
+        <button id="runaway-button">Click Me</button>
+        <button id="back-button" onclick="closeSecret()">X</button>
+    </div>
+
+    <div class="password">
+        <div class="password-background"></div>
+        <form action="" class="popup-input">
+            <label for="full-name">Please enter creator's full name to going further</label>
+            <input type="text" name="full-name" id="full-name">
+            <input type="button" id="password-button" value="Check" onclick="checkName()">
+            <h1 class="wrong-name">You entered wrong name xD</h1>
+        </form>
+        
+        <button id="password-back-button" onclick="closePopup()">X</button>
+
+        <div class="confess-page">
+            <p>*megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem**megat hensem*</p>
+        </div>
+        <button id="confess-back-button" onclick="closeConfess()" >X</button>
+    </div>
+    
+    
     <script src="../mainpage/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    
 </body>
 
 </html>
