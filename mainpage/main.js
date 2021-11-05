@@ -344,6 +344,7 @@ let wrongNameText = document.querySelector(".wrong-name");
 let confessBackButton = document.querySelector("#confess-back-button");
 let wrongcounter = 0;
 
+
 function checkName(){
     wrongNameText.style.visibility = "hidden";
     console.log("dah tekan");
@@ -367,5 +368,6 @@ function checkName(){
 
 function closeConfess(){
     confessPage.style.visibility = "hidden";
-        confessBackButton.style.visibility = "hidden";
+    confessBackButton.style.visibility = "hidden";
+    document.querySelector(".popup-input").reset();
 }

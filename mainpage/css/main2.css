@@ -540,6 +540,144 @@ hr{
     cursor: pointer; 
 }
 
+@media(max-width : 500px){ 
+    #giftbox1{
+        top: -30px;
+        right: -30px;
+        width: 5em;
+    }
+    
+    
+    #giftbox1lid{
+        top: 18px;
+        right: -5px;
+        width: 3.5em;
+    }
+    
+    #giftbox2{
+        top: -15px;
+        right: 45px;
+        width: 3.5em;
+    }
+    
+    #giftbox2lid{
+        top: 1px;
+        right: 39px;
+        width: 3.5em;
+    }
+    
+    #giftbox3{
+        top: -20px;
+        right: 95px;
+        width: 3.5em;
+    }
+    
+    #giftbox3lid{
+        top: -1px;
+        right: 100px;
+        width: 3.5em;
+    }
+    
+    #birthdayhat1{
+        top: -14px;
+        right: 135px;
+        width: 3.5em;
+    }
+    
+    #birthdayhat2{
+        top: -19px;
+        left: 150px;
+        width: 4em;
+    }
+    
+    #icecreamcup{
+        top: -20px;
+        left: 100px;
+        width: 4em;
+    }
+    
+    #icecream{
+        top: -7px;
+        left: 113px;
+        width: 4em;
+    }
+    
+    #giftbox4{
+        top: -20px;
+        left: 56px;
+        width: 3.5em;
+    }
+    
+    #giftbox4lid{
+        top: 4px;
+        left: 55px;
+        width: 3.5em;
+    }
+    
+    #giftbox5{
+        top: -10px;
+        left: -10px;
+        width: 3.5em;
+    }
+    
+    #giftbox5lid{
+        top: 7px;
+        left: -3px;
+        width: 3.5em;
+    }
+    
+    .card1-top,
+    .card2-top,
+    .card3-top,
+    .card4-top{
+        background-color: black;
+        margin: auto;
+        width: 90%;
+        height: 10em;
+        cursor: pointer;
+        border-radius: 50px;
+        position: relative;
+        transform: translateY(5em);
+        transition: 0.5s;
+        z-index: 2;
+    }
+    
+    .card1-bottom,
+    .card2-bottom,
+    .card3-bottom,
+    .card4-bottom{
+        transform: translateY(-1em);
+        margin:  auto;
+        width: 90%;
+        height: 15em;
+        cursor: pointer;
+        transform: translateY(-5em);
+        transition: 0.5s;
+        border-radius: 0 0 50px 50px;
+        opacity: 0;
+        position: relative;
+    }
+    
+    
+   
+    .password .confess-page{
+        border-radius: 10%;
+    }
+    
+    #confess-back-button{
+        position: fixed;
+        top: 70px;
+        left: 60px;
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+        border: none;
+        background-color: white;
+        z-index: 104;
+        visibility: hidden;
+        cursor: pointer; 
+    }
+}
 
 @media(min-width : 730px){
     
