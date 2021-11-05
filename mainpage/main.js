@@ -1,5 +1,3 @@
-
-
 document.getElementById('themeSwithcer').href = "../mainpage/css/pink.css";
 let secretButtonCounter = 0;
 
