@@ -1,6 +1,6 @@
 
 //get the current time and date to subtract with the birthday date and time
-let birthdayDate = new Date("November 15, 2021 12:00:00").getTime();
+let birthdayDate = new Date("November 19, 2021 00:00:00").getTime();
 
 //Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
