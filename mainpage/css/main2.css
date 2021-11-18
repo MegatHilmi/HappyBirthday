@@ -683,8 +683,10 @@ hr{
     bottom: 50%;
     left: 40%;
     transform: translate(-30%,40%);
-    z-index: 102;
-    visibility: hidden;
+}
+
+.password label{
+    font-size: 3.5vw;
 }
 
 @media(min-width : 730px){
