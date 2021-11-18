@@ -64,6 +64,10 @@ function isPlaying(){
 
 
 function audioButton(){
+    secretButtonCounter++;
+
+    //secret page popup
+    secretcalculate()
     if(!sound.playing()){
         sound.play();
         controlBtn.className = "pause";
@@ -297,7 +301,7 @@ let backButton = document.querySelector("#back-button");
 
 
 function secretcalculate(){
-    if(secretButtonCounter  % 10 == 0){
+    if(secretButtonCounter  % 8 == 0){
         secret();
     }
 }
@@ -316,7 +320,7 @@ function closeSecret(){
 }
 
 function secretPopOut(){
-    if (hoverButtonCounter % 20 == 0){
+    if (hoverButtonCounter % 15 == 0){
         passwordPopUp();
     }
 }
