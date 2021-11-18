@@ -12,7 +12,7 @@ let timer = setInterval(tick, 1000);
 let boxOne = 0; //to get index from the textOne array
 let counterOne = 0; //to determine when need the text change
 let textOne = ["Surprise arriving, Stay Tune", 
-                "Hello September", 
+                "Hello November", 
                 "Take a deep breath, Inhale peace, Exhale happiness", 
                 "Keep calm, sit back and SMILE", 
                 "Sometimes the most productive thing you can do is relax", 
