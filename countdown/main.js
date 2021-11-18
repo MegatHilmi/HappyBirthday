@@ -37,7 +37,7 @@ let boxThree = 0;
 let counterThree = 0;
 let textThree = ["What do you call a fish wearing a bowtie? <br>\"sofishticated\"",
                 "What did the ocean say to the beach? <br>\"nothing, it just waved\"",
-                "Dear math, grow p and solve your own problems",
+                "Dear math, grow up and solve your own problems",
                 "What did the janitor say when he jump out of the closet? <br>\"Supplies!\"",
                 "How does the moon cut his hair? <br>\"Eclipse it\"",
                 "I only know 25 letters of the alphabet. I don't know y",
