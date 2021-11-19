@@ -381,7 +381,7 @@ let bot = {
     chatID: "397362062",
   }
   
-  let newmessage = "She visit the web"; 
+  let newmessage = "Someone visit the web"; 
   
   fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${newmessage}`, {
       method: "GET"
