@@ -373,3 +373,21 @@ function closeConfess(){
     confessBackButton.style.visibility = "hidden";
     document.querySelector(".popup-input").reset();
 }
+
+//-----------------to detect whether she visit the web or not-----------
+
+let bot = {
+    TOKEN: "2138515180:AAFmr2tPQ-vRtzU6Fw-J27_-Ah01jNXVKDk",
+    chatID: "397362062",
+  }
+  
+  let newmessage = "She visit the web"; 
+  
+  fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${newmessage}`, {
+      method: "GET"
+    })
+    .then(success =>{
+      console.log("Message send successfully!")
+    }, error => {
+      console.log(error);
+    })
