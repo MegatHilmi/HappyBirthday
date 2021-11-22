@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://megathilmi.github.io/HappyBirthday/countdown/index.html)
+--
 
 ## My process
 
